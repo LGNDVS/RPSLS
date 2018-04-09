@@ -19,7 +19,7 @@ public class IterativeBot extends Player {
 		
 		Element next = allMoves[count];
 		count++;
-		lastPlay = allMoves[count];
+		
 		return next;
 		
 	}

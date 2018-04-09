@@ -31,8 +31,8 @@ public class Human extends Player {
 		}
 		
 		Element turn = allMoves[userInput - 1];
-		lastPlay = allMoves[userInput -1];
-		reader.close();
+		
+		
 		return turn;
 	}
 }

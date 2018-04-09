@@ -3,6 +3,8 @@ package csci305.javalab;
 public abstract class Player {
 
 	public String name;
+	public Element lastMove;
+	public Player opponent;
 	
 	Element paper = new Paper("Paper");
 	Element rock = new Rock("Rock");
@@ -12,7 +14,7 @@ public abstract class Player {
 	
 	Element[] allMoves = new Element[] {rock, paper, scissors, lizard, spock};
 	
-	Element lastPlay = null;
+	
 	
 	public Player(String name) 
 	{
@@ -25,6 +27,8 @@ public abstract class Player {
 	}
 	
 	public abstract Element play();
+	
+	
 	
 	
 }

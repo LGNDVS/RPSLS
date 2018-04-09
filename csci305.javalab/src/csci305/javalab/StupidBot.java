@@ -12,7 +12,7 @@ public class StupidBot extends Player {
 	{
 		
 		Element turn = new Paper("Paper"); 
-		lastPlay = paper;
+		
 		return turn; 
 	}
 

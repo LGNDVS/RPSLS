@@ -12,7 +12,7 @@ public class RandomBot extends Player {
 	public Element play() {
 		
 		int random = (int)(Math.random() * allMoves.length);
-		lastPlay = allMoves[random];
+		
 		return allMoves[random];
 		
 	}
