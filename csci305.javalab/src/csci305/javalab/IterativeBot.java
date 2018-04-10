@@ -6,22 +6,24 @@ public class IterativeBot extends Player {
 	
 	public IterativeBot(String name) {
 		super(name);
-		count = 0;
 		
+		//each iterativeBot created, must start with a counter at 0
+		count = 0;
 	}
 
 	@Override
 	public Element play() {
+		
+		//checks if the count is greater than the allMoves Array
 		if(count > 4) 
 		{
+			//reset the counter
 			count = 0;
 		}
 		
+		//next variable set to count position in the array
 		Element next = allMoves[count];
 		count++;
-		
-		return next;
-		
+		return next;	
 	}
-
 }

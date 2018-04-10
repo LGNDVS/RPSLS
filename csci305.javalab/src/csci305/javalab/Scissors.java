@@ -4,7 +4,6 @@ public class Scissors extends Element {
 
 	public Scissors(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

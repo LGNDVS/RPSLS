@@ -4,7 +4,6 @@ public class Rock extends Element {
 
 	public Rock(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

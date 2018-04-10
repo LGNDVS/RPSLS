@@ -4,7 +4,6 @@ public class Lizard extends Element {
 
 	public Lizard(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

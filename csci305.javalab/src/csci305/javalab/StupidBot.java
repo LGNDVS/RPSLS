@@ -11,8 +11,8 @@ public class StupidBot extends Player {
 	public Element play() 
 	{
 		
-		Element turn = new Paper("Paper"); 
-		
+		//sets stupidBots only move to paper and returns
+		Element turn = paper; 
 		return turn; 
 	}
 

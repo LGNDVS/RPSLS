@@ -3,8 +3,7 @@ package csci305.javalab;
 public class Paper extends Element {
 	
 	public Paper(String name) {
-		super(name);
-		
+		super(name);	
 	}
 
 	@Override

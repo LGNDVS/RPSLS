@@ -12,13 +12,16 @@ public class MyBot extends Player {
 	@Override
 	public Element play() {
 		
-		if(count > 9) 
+		//resets count if it becomes greater than the size of the array
+		if(count > repeatMoves.length) 
 		{
+			//reset the counter
 			count = 0;
 		}
+		
+		//take the move in the count position in the array and returns
 		Element repeat = repeatMoves[count];
 		count++;
-		//lastPlay = repeatMoves[count];
 		return repeat;
 	
 	}

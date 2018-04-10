@@ -2,7 +2,7 @@ package csci305.javalab;
 
 public class Outcome {
 	
-	public String rule;
+	public String rule;	
 	public String result;
 	
 	//Outcome constructor to handle when LIZARD is first element
@@ -37,8 +37,7 @@ public class Outcome {
 			
 			default:
 				rule = "Error " + lizard.getName();
-				result = "Error " + ele.getName();
-				
+				result = "Error " + ele.getName();	
 		}
 	}
 	
@@ -74,8 +73,7 @@ public class Outcome {
 				
 			default:
 				rule = "Error " + spock.getName();
-				result = "Error " + ele.getName();
-				
+				result = "Error " + ele.getName();	
 		}
 	}
 	
@@ -111,8 +109,7 @@ public class Outcome {
 			
 			default:
 				rule = "Error " + rock.getName();
-				result = "Error " + ele.getName();
-				
+				result = "Error " + ele.getName();	
 		}
 	}
 	
@@ -148,8 +145,7 @@ public class Outcome {
 				
 			default:
 				rule = "Error " + paper.getName();
-				result = "Error " + ele.getName();
-				
+				result = "Error " + ele.getName();	
 		}
 	}
 	
@@ -189,5 +185,4 @@ public class Outcome {
 				
 		}
 	}
-	
 }

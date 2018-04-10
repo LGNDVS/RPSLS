@@ -4,7 +4,6 @@ public class Spock extends Element {
 
 	public Spock(String name) {
 		super(name);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
