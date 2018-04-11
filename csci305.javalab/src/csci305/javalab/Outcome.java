@@ -139,7 +139,7 @@ public class Outcome {
 				break;
 				
 			case "Lizard":
-				rule = "Lizard posions Spock";
+				rule = "Lizard eats paper";
 				result = "Lose";
 				break;
 				
@@ -154,6 +154,7 @@ public class Outcome {
 	{
 		switch(ele.getName()) 
 		{
+			
 			case "Rock":
 				rule = "Rock crushes Scissors";
 				result = "Lose";

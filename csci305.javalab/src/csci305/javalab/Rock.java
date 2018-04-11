@@ -11,6 +11,4 @@ public class Rock extends Element {
 		Outcome outcome = new Outcome(this, ele);
 		return outcome.rule + " -- " + outcome.result;
 	}
-
-
 }

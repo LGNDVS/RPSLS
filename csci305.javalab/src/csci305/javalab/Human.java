@@ -2,6 +2,7 @@ package csci305.javalab;
 import java.util.Scanner;
 
 public class Human extends Player {
+	Scanner reader = new Scanner(System.in);
 
 	//Constructor to make human players
 	public Human(String name) {
@@ -13,7 +14,6 @@ public class Human extends Player {
 	public Element play() {
 		
 		//scanner initialization 
-		Scanner reader = new Scanner(System.in);
 		
 		//must set userInput to 0 when declared in order to enter while loop
 		int userInput = 0;
@@ -26,7 +26,8 @@ public class Human extends Player {
 			System.out.println("(3) : Scissors");
 			System.out.println("(4) : Lizard");
 			System.out.println("(5) : Spock");
-			System.out.println("Enter your move: ");
+			System.out.print("Enter your move: ");
+			
 			
 			//capture the users decision 
 			userInput = reader.nextInt();
@@ -40,7 +41,7 @@ public class Human extends Player {
 		}
 		
 		//set the variable turn to the array location of a move in the array allMoves
-		Element turn = allMoves[userInput - 1];
+		Element turn = allMoves[(userInput - 1)];
 		return turn;
 	}
 }

@@ -6,7 +6,6 @@ public class LastPlayBot extends Player {
 	
 	public LastPlayBot(String name) {
 		super(name);
-		
 	}
 
 	@Override
@@ -15,8 +14,10 @@ public class LastPlayBot extends Player {
 		if(lastPlay == null) 
 		{
 			lastPlay = paper;
+			return paper;
 		}
 		
+		return opponent.getLastMove();
 	}
 
 }
