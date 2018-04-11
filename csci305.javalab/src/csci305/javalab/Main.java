@@ -1,7 +1,7 @@
 package csci305.javalab;
 import java.util.Scanner;
 
-public class Driver {
+public class Main {
 	
 	public static void main(String args[]) 
 	{
@@ -18,7 +18,7 @@ public class Driver {
 		//new scanner declaration 
 		Scanner reader = new Scanner(System.in);
 		
-		//declaration of the two players in the gamec
+		//declaration of the two players in the game
 		Player P1 = null;
 		Player P2 = null;
 		
@@ -150,7 +150,6 @@ public class Driver {
 			
 	}
 		
-	
 	//pickPlayer method to make a new instance of the player selected by the user at the start of the game
 	public static Player pickPlayer(int Input) {
 
@@ -190,6 +189,7 @@ public class Driver {
 			return null;
 
 		}
+		
 
 	}
 		
